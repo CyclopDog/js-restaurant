@@ -1,0 +1,9 @@
+.hidden { display: none; }
+.hero-img { 
+    background-image: url(imgs/ristorante.png); 
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1.is-white, h2.is-white { color: white; }
