@@ -61,7 +61,7 @@ const pageAbout = () => {
                              He watched her cooking and was amused by her techniques and passion. \n
                              Every day thoughts of becoming a great cook came to Lucas's mind. \n
                              One day he asked his nonna to teach him how to become a master cook. \n
-                             She took his wish to the great cook concil, which wasn\'t found of the idea because of his temper. \n
+                             She took his wish to the great cook concil, which wasn't found of the idea because of his temper. \n
                              Arguing she would be held responsible for the kid, was able to get permission to at last teach the young boy. \n
                              Lucas grew to become a great master cook and invested all his funds and efforts on what would become the greatest fictional restaurant ever.`;
 
