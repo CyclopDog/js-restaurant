@@ -23,5 +23,4 @@ const pageHome = () => {
   container.appendChild(subtitle);
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { pageHome };
+export default pageHome;

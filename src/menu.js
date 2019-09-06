@@ -76,5 +76,4 @@ const pageMenu = () => {
   makeCard('torta', 'Torta Caprese', '');
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { pageMenu };
+export default pageMenu;

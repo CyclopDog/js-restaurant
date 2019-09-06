@@ -7,5 +7,4 @@ const canvasSetup = () => {
   content.appendChild(canvas);
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { canvasSetup };
+export default canvasSetup;

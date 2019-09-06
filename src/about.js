@@ -11,7 +11,6 @@ const pageAbout = () => {
   canvas.appendChild(about);
   about.appendChild(ancestor);
 
-  // eslint-disable-next-line no-unused-vars
   const image = (() => {
     const parent = document.createElement('DIV');
     const child = document.createElement('DIV');
@@ -33,7 +32,6 @@ const pageAbout = () => {
     figure.appendChild(img);
   })();
 
-  // eslint-disable-next-line no-unused-vars
   const text = (() => {
     const parent = document.createElement('DIV');
     const child = document.createElement('ARTICLE');
@@ -47,7 +45,6 @@ const pageAbout = () => {
     parent.appendChild(child);
     child.appendChild(content);
 
-    // eslint-disable-next-line no-unused-vars
     const makeTxt = (() => {
       const title = document.createElement('P');
       const aboutText = document.createElement('DIV');
@@ -71,5 +68,4 @@ const pageAbout = () => {
   })();
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { pageAbout };
+export default pageAbout;
