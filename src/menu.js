@@ -76,4 +76,4 @@ const pageMenu = () => {
   makeCard('torta', 'Torta Caprese', '');
 };
 
-export default pageMenu;
+export default pageMenu

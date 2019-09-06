@@ -1,6 +1,6 @@
-import { pageHome } from './home';
-import { pageMenu } from './menu';
-import { pageAbout } from './about';
+import pageHome from './home';
+import pageMenu from './menu';
+import pageAbout from './about';
 
 const tabMenuSetup = () => {
   const content = document.querySelector('#content');
@@ -64,4 +64,4 @@ const navigation = () => {
   });
 };
 
-export { tabMenuSetup, navigation };
+export { tabMenuSetup, navigation }

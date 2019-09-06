@@ -23,4 +23,4 @@ const pageHome = () => {
   container.appendChild(subtitle);
 };
 
-export default pageHome;
+export default pageHome

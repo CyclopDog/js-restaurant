@@ -7,4 +7,4 @@ const canvasSetup = () => {
   content.appendChild(canvas);
 };
 
-export default canvasSetup;
+export default canvasSetup

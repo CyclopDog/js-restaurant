@@ -68,4 +68,4 @@ const pageAbout = () => {
   })();
 };
 
-export default pageAbout;
+export default pageAbout
