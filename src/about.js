@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 const pageAbout = () => {
   const canvas = document.querySelector('.canvas');
 
@@ -40,10 +39,8 @@ const pageAbout = () => {
     const child = document.createElement('ARTICLE');
     const content = document.createElement('DIV');
 
-    parent.classList.add('tile');
-    parent.classList.add('is-parent');
-    child.classList.add('tile');
-    child.classList.add('is-child');
+    parent.classList.add('tile', 'is-parent');
+    child.classList.add('tile', 'is-child');
     content.classList.add('content');
 
     ancestor.appendChild(parent);
@@ -59,14 +56,14 @@ const pageAbout = () => {
       aboutText.classList.add('content');
 
       title.innerHTML = 'La Mafia di JS Ristorante';
-      aboutText.innerHTML = 'Situated in a far, far away galaxy, La Mafia di JS Ristorante is a very specialized traditional italian cuisine.';
-      aboutText.innerHTML += '<br>Our history begins many years ago, when young Lucas Skywalkeri used to lunch at his nonna every sunday.';
-      aboutText.innerHTML += '<br>He watched her cooking and was amused by her techniques and passion.';
-      aboutText.innerHTML += '<br>Every day thoughts of becoming a great cook came to Lucas\'s mind.';
-      aboutText.innerHTML += '<br>One day he asked his nonna to teach him how to become a master cook.';
-      aboutText.innerHTML += '<br>She took his wish to the great cook concil, which wasn\'t found of the idea because of his temper.';
-      aboutText.innerHTML += '<br>Arguing she would be held responsible for the kid, was able to get permission to at last teach the young boy.';
-      aboutText.innerHTML += '<br>Lucas grew to become a great master cook and invested all his funds and efforts on what would become the greatest fictional restaurant ever.';
+      aboutText.innerHTML = `Situated in a far, far away galaxy, La Mafia di JS Ristorante is a very specialized traditional italian cuisine. \n 
+                             Our history begins many years ago, when young Lucas Skywalkeri used to lunch at his nonna every sunday. \n
+                             He watched her cooking and was amused by her techniques and passion. \n
+                             Every day thoughts of becoming a great cook came to Lucas's mind. \n
+                             One day he asked his nonna to teach him how to become a master cook. \n
+                             She took his wish to the great cook concil, which wasn\'t found of the idea because of his temper. \n
+                             Arguing she would be held responsible for the kid, was able to get permission to at last teach the young boy. \n
+                             Lucas grew to become a great master cook and invested all his funds and efforts on what would become the greatest fictional restaurant ever.`;
 
       content.appendChild(title);
       content.appendChild(aboutText);

@@ -1,5 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-
 const canvasSetup = () => {
   const content = document.querySelector('#content');
   const canvas = document.createElement('DIV');

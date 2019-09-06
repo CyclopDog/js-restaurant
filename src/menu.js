@@ -1,6 +1,6 @@
-// eslint-disable-next-line no-unused-vars
 const pageMenu = () => {
   const canvas = document.querySelector('.canvas');
+  const imgType = 'jfif';
 
   const menu = document.createElement('DIV');
   let columns = document.createElement('DIV');
@@ -25,19 +25,17 @@ const pageMenu = () => {
     const title = document.createElement('P');
     const content = document.createElement('DIV');
 
-    column.classList.add('column');
-    column.classList.add('is-3');
+    column.classList.add('column', 'is-3');
     card.classList.add('card');
     cardImg.classList.add('card-image');
-    figure.classList.add('image');
-    figure.classList.add('is-4by3');
+    figure.classList.add('image', 'is-4by3');
     cardCont.classList.add('card-content');
     media.classList.add('media');
     mediaCont.classList.add('media-content');
     title.classList.add('title');
     content.classList.add('content');
 
-    imgFile.setAttribute('src', `imgs/${img}.jfif`);
+    imgFile.setAttribute('src', `imgs/${img}.${imgType}`);
     imgFile.setAttribute('alt', `${name}`);
 
     title.innerHTML = `${name}`;
@@ -70,7 +68,7 @@ const pageMenu = () => {
 
   makeCard('lasagna', 'Lasagne Alla Bolognese', 'A traditional and triumphant lasagna prepared with selected ground beef.');
   makeCard('penne', 'Penne ai Funghi', 'A quite typical dish prepared with mushrooms, it idealy highlights the delicate funghi\'s flavor');
-  makeCard('risotto', 'Risotto al Samone', 'Preapred with selected fresh salmon, this risotto is the perfect choice for a light meal accompanied by a good wine.');
+  makeCard('risotto', 'Risotto al Salmone', 'Preapred with selected fresh salmon, this risotto is the perfect choice for a light meal accompanied by a good wine.');
   makeCard('scaloppine', 'Scaloppine al Vino Bianco', 'Cutlets of high grade meat carefully prepared with the house white wine and fine herbs.');
   makeCard('tiramisu', 'Tiramisù', '');
   makeCard('sorbetto', 'Sorbetto al Limone', '');

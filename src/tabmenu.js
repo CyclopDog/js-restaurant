@@ -2,7 +2,6 @@ import { pageHome } from './home';
 import { pageMenu } from './menu';
 import { pageAbout } from './about';
 
-// eslint-disable-next-line no-unused-vars
 const tabMenuSetup = () => {
   const content = document.querySelector('#content');
 
@@ -11,8 +10,7 @@ const tabMenuSetup = () => {
 
   const tabMenu = ['Home', 'Menu', 'About'];
 
-  tabs.classList.add('tabs');
-  tabs.classList.add('is-boxed');
+  tabs.classList.add('tabs', 'is-boxed');
 
   content.appendChild(tabs);
   tabs.appendChild(tabList);
